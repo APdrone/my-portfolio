@@ -83,8 +83,8 @@ const Contact = () => {
             {/* <b>
             What’s your story?</b> Get in touch. Always available for
             freelancing if the right project comes along. me. */}
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam
-            iure earum ut repellat soluta!
+            Please fill the details and get in touch. Always available for
+            freelancing if the right project comes along
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input

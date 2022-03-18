@@ -22,12 +22,12 @@ const Intro = () => {
             {/* I design and develop services for customers all sizes, specializing
             in creating stylish, modern websites, web servers and online stores
           */}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-            commodi ducimus odit obcaecati placeat ipsa fugit impedit, quasi
-            velit laboriosam!
+            Have full stack developer experience in MERN stack and looking for
+            some awesome opportunity ,work looks interesting lets connect
           </p>
         </div>
-        <svg
+
+        {/* <svg
           xmlns="http://www.w3.org/2000/svg"
           className="icon"
           fill="none"
@@ -40,7 +40,7 @@ const Intro = () => {
             strokeWidth={2}
             d="M19 13l-7 7-7-7m14-8l-7 7-7-7"
           />
-        </svg>
+        </svg> */}
       </div>
 
       <div className="i-right">

@@ -27,9 +27,11 @@
 .i-intro {
   font-size: 30px;
   font-weight: 300;
+  margin-bottom: 20px;
 }
 .i-name {
-  font-size: 60px;
+  font-size: 65px;
+  margin-top: 25px;
 }
 
 .i-title {
@@ -40,6 +42,10 @@
 .i-title-wrapper {
   height: 100%;
   animation: move 10s ease-in-out infinite alternate;
+}
+
+.i-description {
+  font-size: 17px;
 }
 
 @keyframes move {

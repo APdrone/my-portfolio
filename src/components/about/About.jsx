@@ -1,7 +1,11 @@
-import React from "react";
+import { useContext } from "react";
 import "./about.css";
+import { ThemeContext } from "../../context";
+import Img from "../../img/manatwork_about.jpg";
 
 const About = () => {
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div className="about">
       <div className="about-left">
@@ -12,6 +16,8 @@ const About = () => {
             alt=""
             className="about-img"
           /> */}
+
+          <img src={Img} alt="working men" className="about-img" />
         </div>
       </div>
       <div className="about-right">
@@ -19,16 +25,33 @@ const About = () => {
         <p className="about-sub">
           {/* It is a long established fact that a reader will be distracted by the
           readable content. */}
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum
-          aperiam voluptas doloribus quisquam nam ducimus tempora, quae corporis
-          excepturi necessitatibus!
+          Completed full stack program at GUVI and possees hands on experience
+          in MERN stack and have proficiency in javascript, nodejs and react.
+          Also have both automation and manual experience in testing and have
+          worked across banking, finance ,legal and healthcare domain and
+          understands throughly the process involved in dev, QA and agile
+          activities.
         </p>
         <p className="about-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+          Skills includes JavaScript,Nodejs, express,MongoDB, Mongoose,
+          mySQL,React, Nextjs ,HTML, CSS ,Version control tools (git).
         </p>
+        <span>
+          <a
+            // style={{ backgroundColor: darkMode ? "#f8f9fa" : "#333" }}
+            // style={{
+            //   backgroundColor: darkMode ? "#f8f9fa" : "#333",
+            //   color: darkMode ? "#333" : "#f8f9fa",
+            // }}
+            // className="resume_link"
+            className={`resume_link ${darkMode ? "dark" : "normal"}`}
+            href="https://drive.google.com/file/d/1fN3YC30gfk1zcIaOb1JouBiqHsVJY0M6/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
+            More details
+          </a>
+        </span>
       </div>
     </div>
   );
