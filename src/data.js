@@ -17,17 +17,17 @@ export const products = [
   },
   {
     id: 2,
-    img: sizzleEcommerce,
-    link: "https://sizzle-e-commerce.netlify.app/",
-    repoURL: "https://github.com/APdrone/E-commerce-client-app",
-    stack: ["React", "NodeJS"],
-  },
-  {
-    id: 3,
     img: chatApp,
     link: "https://connectchat-app.netlify.app/login",
     repoURL: "https://github.com/APdrone/chat-app-FE",
     stack: ["React", "NodeJS", "Socket IO"],
+  },
+  {
+    id: 3,
+    img: sizzleEcommerce,
+    link: "https://sizzle-e-commerce.netlify.app/",
+    repoURL: "https://github.com/APdrone/E-commerce-client-app",
+    stack: ["React", "NodeJS"],
   },
   {
     id: 4,
