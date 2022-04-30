@@ -49,20 +49,20 @@ export const products = [
     img: adpushup,
     link: "https://ad-creator-user.netlify.app/",
     repoURL: "https://github.com/APdrone/adpushup-fe",
-    stack: ["WIP"],
+    stack: ["React", "Node"],
   },
   {
     id: 7,
     img: smartqfoodordering,
     link: "https://smartq-food-ordering.netlify.app/",
     repoURL: "https://github.com/APdrone/smartQ-ordering-app",
-    stack: ["WIP"],
+    stack: ["React"],
   },
   {
     id: 8,
     img: adminUserPortal,
     link: "https://admin-user-portal.netlify.app/",
     repoURL: "https://github.com/APdrone/Admin-Portal",
-    stack: ["WIP"],
+    stack: ["React"],
   },
 ];
