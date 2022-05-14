@@ -31,6 +31,7 @@ const ProductList = () => {
               img={item.img}
               link={item.link}
             />
+            <p>{item.description}</p>
             <div className="pl-details">
               <a href={item.repoURL} target="_blank" rel="noreferrer">
                 <img

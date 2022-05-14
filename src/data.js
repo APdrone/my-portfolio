@@ -14,6 +14,7 @@ export const products = [
     link: "https://pizza-slicer-app.vercel.app/",
     repoURL: "https://github.com/APdrone/Pizza-slicer-app",
     stack: ["React", "NextJS"],
+    description: "Pizza Ordering App",
   },
   {
     id: 2,
@@ -21,6 +22,7 @@ export const products = [
     link: "https://connectchat-app.netlify.app/login",
     repoURL: "https://github.com/APdrone/chat-app-FE",
     stack: ["React", "NodeJS", "Socket IO"],
+    description: "Chat Application",
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ export const products = [
     link: "https://sizzle-e-commerce.netlify.app/",
     repoURL: "https://github.com/APdrone/E-commerce-client-app",
     stack: ["React", "NodeJS"],
+    description: "Ecommerce App",
   },
   {
     id: 4,
@@ -35,6 +38,7 @@ export const products = [
     link: "https://car-renting-app.netlify.app/",
     repoURL: "https://github.com/APdrone/car-rental-fe",
     stack: ["React", "NestJS", "GraphQL"],
+    description: "Car rental app",
   },
 
   {
@@ -43,6 +47,7 @@ export const products = [
     link: "https://todo-user-app.netlify.app/",
     repoURL: "https://github.com/APdrone/To-do-app-new",
     stack: ["React"],
+    description: "To do App",
   },
   {
     id: 6,
@@ -50,6 +55,7 @@ export const products = [
     link: "https://ad-creator-user.netlify.app/",
     repoURL: "https://github.com/APdrone/adpushup-fe",
     stack: ["React", "Node"],
+    description: "Ad creator App",
   },
   {
     id: 7,
@@ -57,6 +63,7 @@ export const products = [
     link: "https://smartq-food-ordering.netlify.app/",
     repoURL: "https://github.com/APdrone/smartQ-ordering-app",
     stack: ["React"],
+    description: "Food Ordering App",
   },
   {
     id: 8,
@@ -64,5 +71,6 @@ export const products = [
     link: "https://admin-user-portal.netlify.app/",
     repoURL: "https://github.com/APdrone/Admin-Portal",
     stack: ["React"],
+    description: "Admin Portal",
   },
 ];
